@@ -1,0 +1,119 @@
+  body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #7d7d7d;
+    background-color: rgb(235 235 235);
+    width: 60%;
+    padding: 1px 0 1px 0;
+    margin: auto;
+    font-size: 14px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  .body {
+    clear: both;
+  }
+  header {
+    background-color: white;
+    border: 1px solid rgb(186, 184, 184);
+    border-radius: 7px;
+    padding: 20px;
+  }
+  .mimg img {
+    filter: drop-shadow(gray 0px 1px 4px);
+    height: 160px;
+    border-radius: 50%;
+  }
+  .intro {
+    font-size: 19px;
+    position: relative;
+    text-align: left;
+  }
+  button {
+    background-color: #dd5555;
+    color: white;
+    height: 40px;
+    width: 126px;
+    border-radius: 3px;
+    font-weight: bolder;
+    position: relative;
+    top: 8px;
+    border: none;
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 30px;
+    color: #dd5555;
+    font-weight: 800;
+  }
+  h2 {
+    font-size: 24px;
+    position: relative;
+    bottom: 5px;
+    text-align: center;
+  }
+  h3 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 3%;
+    color: #8d8d8d
+}
+  .social {
+    background-color: white;
+    border: 1px solid rgb(186, 184, 184);
+    border-radius: 7px;
+    padding: 20px;
+    min-height: 83px;
+    gap: 20px;
+  }
+  ul li {
+    display: inline-block;
+    position: relative;
+    color: rgb(186, 184, 184);
+    right: 7%;
+    top: 10px;
+    align-content: stretch;
+    justify-content: center;
+    font-size: 20px;
+  }
+i:hover {
+  color: #1b74e4;
+    font-size: 35px;
+}
+mark {
+color: #8d8d8d;
+background-color: rgb(208, 205, 205); 
+}
+.fav {
+    background-color: white;
+    border: 1px solid rgb(186, 184, 184);
+    border-radius: 7px;
+    /* padding: 20px; */
+    position: relative;
+    top: 25px;
+ }
+.container {
+  display: flex;
+  position: relative;
+}
+.container img {
+  width: 100px;
+  position: relative;
+  left: 6px;
+}
+.tx p {
+  max-width: 60%;
+  text-align: left;
+  width: fit-content;
+  position: relative;
+  left: 30px;
+  /* padding: 0px; */
+}
+@media only screen and (max-width: 768px)
+body {
+    width: 95%;
+}
+  
